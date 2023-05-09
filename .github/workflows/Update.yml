@@ -1,0 +1,64 @@
+name: Update
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+
+# 定时触发编译
+  schedule:
+    - cron: 0 4,8,12,16,20 * * *
+
+jobs:
+  Update:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Clone Repository
+      uses: actions/checkout@v2
+
+    - name: Set git
+      run : |
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        sudo timedatectl set-timezone "Asia/Shanghai"
+
+    - name: Delete workflow runs
+      uses: GitRML/delete-workflow-runs@main
+      continue-on-error: true
+      with:
+        retain_days: 1
+        keep_minimum_runs: 0
+        
+    - name: Update
+      run: |
+        rm -rf ./packages
+        
+        git https://github.com/cachenow/OPackages ./packages
+        find ./packages -path '*/.*' -delete
+
+    - name: Apply
+      run: |
+        if [ -n "$(git status -s)" ]; then
+          git add .
+          git commit --message "源码有更新，同步时间为 $(date +%Y-%m-%d" "%H:%M:%S)"
+          git push --force
+        else
+          last_commit_date="$(git log -1 --format='%cd' --date=format:'%Y-%m-%d %H:%M:%S')"
+          git commit --allow-empty --message "源码无更新，上次同步时间为 ${last_commit_date}"
+          git push --force
+
+    - name: Compare Config and Repo
+      run: |
+        # 替换为你的 OpenWrt 配置文件路径
+        config_file=./.config
+
+        # 替换为你的软件仓库在本地的路径
+        repo_path=./packages
+
+        # 遍历 OpenWrt 配置文件，查找标注为 =y 的配置项
+        y_configs=$(grep "=y" $config_file | cut -d "=" -f 1)
+
+        # 遍历软件仓库，删除与 OpenWrt 配置文件中未标注为 =y 的配置项相关的文件
+        for y_config in $y_configs
+        do
+          find $repo_path -type d -name "$y_config" -exec rm -r {} +
+        done
