@@ -35,17 +35,6 @@ jobs:
         git clone https://github.com/cachenow/OPackages ./packages
         find ./packages -path '*/.*' -delete
 
-    - name: Apply
-      run: |
-        if [ -n "$(git status -s)" ]; then
-          git add .
-          git commit --message "源码有更新，同步时间为 $(date +%Y-%m-%d" "%H:%M:%S)"
-          git push --force
-        else
-          last_commit_date="$(git log -1 --format='%cd' --date=format:'%Y-%m-%d %H:%M:%S')"
-          git commit --allow-empty --message "源码无更新，上次同步时间为 ${last_commit_date}"
-          git push --force
-
     - name: Compare Config and Repo
       run: |
         # 替换为你的 OpenWrt 配置文件路径
@@ -62,3 +51,14 @@ jobs:
         do
           find $repo_path -type d -name "$y_config" -exec rm -r {} +
         done
+    
+    - name: Apply
+      run: |
+        if [ -n "$(git status -s)" ]; then
+          git add .
+          git commit --message "源码有更新，同步时间为 $(date +%Y-%m-%d" "%H:%M:%S)"
+          git push --force
+        else
+          last_commit_date="$(git log -1 --format='%cd' --date=format:'%Y-%m-%d %H:%M:%S')"
+          git commit --allow-empty --message "源码无更新，上次同步时间为 ${last_commit_date}"
+          git push --force
