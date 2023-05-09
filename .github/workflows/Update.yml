@@ -32,7 +32,7 @@ jobs:
       run: |
         rm -rf ./packages
         
-        git https://github.com/cachenow/OPackages ./packages
+        git clone https://github.com/cachenow/OPackages ./packages
         find ./packages -path '*/.*' -delete
 
     - name: Apply
