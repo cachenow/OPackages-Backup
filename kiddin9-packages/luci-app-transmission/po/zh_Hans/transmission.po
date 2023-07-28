@@ -1,186 +1,189 @@
+#
+# Yangfl <mmyangfl@gmail.com>, 2017, 2018.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-18 11:15+0200\n"
-"PO-Revision-Date: 2020-12-10 19:29+0000\n"
-"Last-Translator: Ryota <21ryotagamer@gmail.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/openwrt/"
-"luciapplicationstransmission/ja/>\n"
-"Language: ja\n"
+"POT-Creation-Date: 2013-10-08 14:06+0200\n"
+"PO-Revision-Date: 2022-05-07 19:19+0000\n"
+"Last-Translator: 王攀 <41330784@qq.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"openwrt/luciapplicationstransmission/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:65
 msgid "Alternative download speed"
-msgstr "一時的な下り速度制限"
+msgstr "临时下载限速"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:59
 msgid "Alternative speed enabled"
-msgstr "一時的な速度制限機能を有効にする"
+msgstr "临时限速已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:277
 msgid "Alternative speed time begin"
-msgstr "一時的な速度制限 開始時間"
+msgstr "计划限速始于"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:283
 msgid "Alternative speed time day"
-msgstr "一時的な速度制限 制限日"
+msgstr "计划限速日期"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:280
 msgid "Alternative speed time end"
-msgstr "一時的な速度制限 終了時間"
+msgstr "计划限速止于"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:274
 msgid "Alternative speed timing enabled"
-msgstr "一時的な速度制限のスケジューリング機能を有効にする"
+msgstr "计划限速已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:62
 msgid "Alternative upload speed"
-msgstr "一時的な上り速度制限"
+msgstr "临时上传速度"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:113
 msgid "Automatically start added torrents"
-msgstr "追加されたtorrent は自動的に開始する"
+msgstr "种子自动下载"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:56
 msgid "Bandwidth settings"
-msgstr "帯域設定"
+msgstr "带宽配置"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:174
 msgid "Binding address IPv4"
-msgstr "バインドするIPv4 アドレス"
+msgstr "绑定 IPv4 地址"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:176
 msgid "Binding address IPv6"
-msgstr "バインドするIPv6 アドレス"
+msgstr "绑定 IPv6 地址"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:86
 msgid "Block list enabled"
-msgstr "ブロックリストを有効にする"
+msgstr "阻止列表已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:89
 msgid "Blocklist URL"
-msgstr "ブロックリスト URL"
+msgstr "URL阻止清单"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:83
 msgid "Blocklists"
-msgstr "ブロックリスト"
+msgstr "阻止清单"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:131
 msgid "Cache size in MB"
-msgstr "キャッシュサイズ (MB)"
+msgstr "缓存大小（MB）"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:50
 msgid "Config file directory"
-msgstr "コンフィグファイル・ディレクトリ"
+msgstr "配置文件目录"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:53
 msgid "Custom Web UI directory"
-msgstr "カスタムWebUIディレクトリ"
+msgstr "自定义 Web UI 目录"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:133
 msgid "DHT enabled"
-msgstr "DHTを有効にする"
+msgstr "启用 DHT"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:151
 msgid "Debug"
-msgstr "デバッグ"
+msgstr "调试"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:97
 msgid "Download directory"
-msgstr "ダウンロード先のディレクトリ"
+msgstr "下载目录"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:211
 msgid "Download queue enabled"
-msgstr "ダウンロード・キュー機能を有効にする"
+msgstr "下载队列已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:217
 msgid "Download queue size"
-msgstr "ダウンロード・キューのサイズ"
+msgstr "下载队列大小"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:121
 msgid "Enable watch directory"
-msgstr "ディレクトリ監視機能を有効にする"
+msgstr "启用种子轮询目录"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:47
 msgid "Enabled"
-msgstr "有効"
+msgstr "已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:136
 msgid "Encryption"
-msgstr "暗号化"
+msgstr "加密"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:149
 msgid "Error"
-msgstr "エラー"
+msgstr "错误"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:107
 msgid "Fast"
-msgstr ""
+msgstr "快速"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:94
 msgid "Files and Locations"
-msgstr "ファイルおよびロケーション設定"
+msgstr "文件和位置"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:108
 msgid "Full"
-msgstr ""
+msgstr "全分配"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:183
 msgid "Global peer limit"
-msgstr "全体の最大ピア数"
+msgstr "全局 Peer 限制"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:44
 msgid "Global settings"
-msgstr "グローバル設定"
+msgstr "全局设置"
 
 #: applications/luci-app-transmission/root/usr/share/rpcd/acl.d/luci-app-transmission.json:3
 msgid "Grant UCI access for luci-app-transmission"
-msgstr "luci-app-transmissionにUCIアクセスを許可"
+msgstr "授予UCI访问luci-app-transmission的权限"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:289
 msgid "Idle seeding limit"
-msgstr ""
+msgstr "空闲做种限时"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:286
 msgid "Idle seeding limit enabled"
-msgstr ""
+msgstr "空闲做种时间已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:102
 msgid "Incomplete directory"
-msgstr ""
+msgstr "未完成目录"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:99
 msgid "Incomplete directory enabled"
-msgstr ""
+msgstr "未完成目录已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:150
 msgid "Info"
-msgstr "情報"
+msgstr "信息"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:144
 msgid "LPD enabled"
-msgstr "LPD を有効にする"
+msgstr "LPD 已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:141
 msgid "Lazy bitfield enabled"
-msgstr "Lazy bitfield を有効にする"
+msgstr "位段延迟已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:147
 msgid "Message level"
-msgstr "メッセージレベル"
+msgstr "消息级别"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:128
 msgid "Miscellaneous"
-msgstr "詳細設定"
+msgstr "杂项"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:148
 msgid "None"
-msgstr "なし"
+msgstr "无"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:283
 msgid ""
@@ -188,86 +191,88 @@ msgid ""
 "enabled, add a value. For Sunday - 1, Monday - 2, Tuesday - 4, Wednesday - "
 "8, Thursday - 16, Friday - 32, Saturday - 64"
 msgstr ""
+"生效日期是对应日期的算术加和值。对应关系：周日-1、周一-2、周二-4、周三-8、周"
+"四-16、周五-32、周六-64"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:106
 msgid "Off"
-msgstr "オフ"
+msgstr "关"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:38
 msgid "Open Web Interface"
-msgstr "WEBブラウザで開く"
+msgstr "打开 Web 管理界面"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:153
 msgid "PEX enabled"
-msgstr "PEX を有効にする"
+msgstr "PEX 已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:190
 msgid "Peer Port settings"
-msgstr "ピアポート設定"
+msgstr "Peer 端口设置"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:178
 msgid "Peer congestion algorithm"
-msgstr ""
+msgstr "Peer 拥塞算法"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:185
 msgid "Peer limit per torrent"
-msgstr "torrent 毎の最大ピア数"
+msgstr "每个种子 Peer 限制数"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:193
 msgid "Peer port"
-msgstr "ピアポート"
+msgstr "Peer 端口"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:198
 msgid "Peer port random high"
-msgstr "ポートをランダムに選択する際の上限値"
+msgstr "Peer 随机端口最大值"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:201
 msgid "Peer port random low"
-msgstr "ポートをランダムに選択する際の下限値"
+msgstr "Peer 随机端口最小值"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:195
 msgid "Peer port random on start"
-msgstr "サービススタート時にポートをランダムに選択する"
+msgstr "Peer 端口随机"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:171
 msgid "Peer settings"
-msgstr "ピア設定"
+msgstr "Peer 设置"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:187
 msgid "Peer socket <abbr title=\"Type of Service\">TOS</abbr>"
-msgstr ""
+msgstr "Peer 套接字 <abbr title=\"服务类型\">TOS</abbr>"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:204
 msgid "Port forwarding enabled"
-msgstr "ポート転送を有効にする"
+msgstr "端口转发已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:105
 msgid "Preallocation"
-msgstr ""
+msgstr "磁盘预分配策略"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:138
 msgid "Prefer encrypted"
-msgstr "暗号化を優先"
+msgstr "偏好加密"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:137
 msgid "Prefer unencrypted"
-msgstr "暗号化されていないものを優先"
+msgstr "偏好未加密"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:156
 msgid "Prefetch enabled"
-msgstr ""
+msgstr "预取缓存已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:214
 msgid "Queue stalled enabled"
-msgstr ""
+msgstr "队列暂停已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:223
 msgid "Queue stalled minutes"
-msgstr ""
+msgstr "队列暂停分钟"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:208
 msgid "Queueing"
-msgstr "キューイング設定"
+msgstr "队列"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:242
 msgid "RPC URL"
@@ -275,115 +280,115 @@ msgstr "RPC URL"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:259
 msgid "RPC authentication required"
-msgstr "RPC 認証機能を有効にする"
+msgstr "RPC 授权验证"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:236
 msgid "RPC bind address"
-msgstr "RPC バインドアドレス"
+msgstr "RPC 绑定地址"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:233
 msgid "RPC enabled"
-msgstr "RPC機能を有効にする"
+msgstr "RPC 已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:249
 msgid "RPC host whitelist"
-msgstr "RPCホストのホワイトリスト"
+msgstr "RPC 主机白名单"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:245
 msgid "RPC host whitelist enabled"
-msgstr "RPCホストのホワイトリスト機能を有効化"
+msgstr "RPC 主机白名单已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:266
 msgid "RPC password"
-msgstr "RPC パスワード"
+msgstr "RPC 密码"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:239
 msgid "RPC port"
-msgstr "RPC ポート"
+msgstr "RPC 端口"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:230
 msgid "RPC settings"
-msgstr "RPC 設定"
+msgstr "RPC 配置"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:263
 msgid "RPC username"
-msgstr "RPC ユーザー名"
+msgstr "RPC 用户名"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:256
 msgid "RPC whitelist"
-msgstr "RPC ホワイトリスト"
+msgstr "RPC 白名单"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:252
 msgid "RPC whitelist enabled"
-msgstr "RPC ホワイトリスト機能を有効にする"
+msgstr "RPC 白名单已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:295
 msgid "Ratio limit"
-msgstr ""
+msgstr "分享率限值"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:292
 msgid "Ratio limit enabled"
-msgstr ""
+msgstr "分享率限制已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:181
 msgid "Recycle peer id after"
-msgstr ""
+msgstr "回收 peer id 时长"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:110
 msgid "Rename partial files"
-msgstr ""
+msgstr "重命名未完成文件"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:139
 msgid "Require encrypted"
-msgstr ""
+msgstr "要求加密"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:52
 msgid "Run daemon as group"
-msgstr "デーモンをグループとして実行"
+msgstr "以此组权限运行"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:51
 msgid "Run daemon as user"
-msgstr "デーモンをユーザーとして実行"
+msgstr "以此用户权限运行"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:271
 msgid "Scheduling"
-msgstr "スケジューラ設定"
+msgstr "计划任务"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:158
 msgid "Scrape paused torrents enabled"
-msgstr ""
+msgstr "忽略暂停种子已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:161
 msgid "Script torrent done enabled"
-msgstr "torrent 完了時にスクリプトを実行する"
+msgstr "种子完成时运行脚本已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:164
 msgid "Script torrent done filename"
-msgstr "torrent 完了時に実行するスクリプト・ファイルパス"
+msgstr "脚本文件名"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:220
 msgid "Seed queue enabled"
-msgstr ""
+msgstr "做种队列已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:226
 msgid "Seed queue size"
-msgstr ""
+msgstr "做种队列大小"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:71
 msgid "Speed limit down"
-msgstr "下り速度制限"
+msgstr "下载限速"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:68
 msgid "Speed limit down enabled"
-msgstr "下り速度制限機能を有効にする"
+msgstr "下载限速已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:77
 msgid "Speed limit up"
-msgstr "上り速度制限"
+msgstr "上传限速"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:74
 msgid "Speed limit up enabled"
-msgstr "上り速度制限機能を有効にする"
+msgstr "上传限速已启用"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:179
 msgid ""
@@ -391,6 +396,9 @@ msgid ""
 "tcp-congestion-control.html\" target=\"_blank\" rel=\"noreferrer "
 "noopener\">tcp-congestion-control</a>."
 msgstr ""
+"文档位于 <a href=\"https://www.irif.fr/~jch/software/bittorrent/tcp-"
+"congestion-control.html\" target=\"_blank\" rel=\"noreferrer noopener\">tcp-"
+"congestion-control</a>。"
 
 #: applications/luci-app-transmission/root/usr/share/luci/menu.d/luci-app-transmission.json:3
 msgid "Transmission"
@@ -400,33 +408,33 @@ msgstr "Transmission"
 msgid ""
 "Transmission daemon is a simple bittorrent client, here you can configure "
 "the settings."
-msgstr "Transmissionは、シンプルなbittorrentクライアントです。"
+msgstr "Transmission 是一个简单的 bittorrent 客户端，在这里您可以配置其设置。"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:116
 msgid "Trash original torrent files"
-msgstr "オリジナルのtorrent ファイルをゴミ箱に移動する"
+msgstr "删除种子源文件"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:80
 msgid "Upload slots per torrent"
-msgstr ""
+msgstr "每个种子上传连接数"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:124
 msgid "Watch directory"
-msgstr "監視するディレクトリ"
+msgstr "轮询种子目录"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:274
 msgid "When enabled, this will toggle the <b>alt-speed-enabled</b> setting"
-msgstr ""
+msgstr "当启用后，会开启/关闭<b>临时限速已启用</b>设置"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:181
 msgid "hours"
-msgstr "時間"
+msgstr "小时"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:277
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:280
 msgid "in minutes from midnight"
-msgstr ""
+msgstr "从 0 时起的分钟数"
 
 #: applications/luci-app-transmission/htdocs/luci-static/resources/view/transmission.js:167
 msgid "uTP enabled"
-msgstr "uTP を有効にする"
+msgstr "uTP 已启用"
