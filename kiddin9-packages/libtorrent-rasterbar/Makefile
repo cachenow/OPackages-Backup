@@ -2,7 +2,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libtorrent-rasterbar
 PKG_VERSION:=2.0.8
-PKG_RELEASE:=3
+PKG_RELEASE:=4
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/arvidn/libtorrent/tar.gz/v$(PKG_VERSION)?
@@ -51,7 +51,7 @@ define Download/try_signal
 	SUBDIR:=deps/try_signal
 	FILE:=$(PKG_NAME)-try_signal-$$(VERSION).tar.xz
 	URL:=https://github.com/arvidn/try_signal.git
-	MIRROR_HASH:=da81da67d52b7a731c21148573b68bf8dc7863616d6ae1f81845b7afb29e8f00
+	MIRROR_HASH:=skip
 	PROTO:=git
 endef
 $(eval $(call Download,try_signal))
