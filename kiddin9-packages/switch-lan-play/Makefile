@@ -9,12 +9,12 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=switch-lan-play
 PKG_VERSION:=0.2.3
-PKG_RELEASE:=4
+PKG_RELEASE:=2
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_VERSION:=076475c2fe7e4f93233dc5e8429ffb2eb781f16b
 PKG_SOURCE_URL:=https://github.com/spacemeowx2/switch-lan-play.git
-PKG_MIRROR_HASH:=c0c663e3fdc95d6d6e8ab401caa2bfb5b5872e00
+PKG_MIRROR_HASH:=skip
 #PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 
 PKG_LICENSE:=GPLv3

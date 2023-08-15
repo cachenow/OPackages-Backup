@@ -7,11 +7,11 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=nftables
 PKG_VERSION:=1.0.8
-PKG_RELEASE:=11
+PKG_RELEASE:=9
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_SOURCE_URL:=https://netfilter.org/projects/$(PKG_NAME)/files
-PKG_HASH:=9373740de41a82dbc98818e0a46a073faeb8a8d0689fa4fa1a74399c32bf3d50
+PKG_HASH:=skip
 
 PKG_MAINTAINER:=
 PKG_LICENSE:=GPL-2.0
